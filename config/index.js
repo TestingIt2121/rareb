@@ -1,7 +1,7 @@
 export const config = {
   env: "prod",
   LOCAL_API_URL: "fbg-mu.vercel.app",
-  API_URL: "fbg-mu.vercel.app",
+  API_URL: "https://rareb1.vercel.app/",
   COLLECTION_NAME: "Fireball Genesis",
   COLLECTION_TITLE: "Fireball Genesis Collection",
   COLLECTION_DESCRIPTION: 'Introducing Fireball Genesis Collection. The origin story starts here. Fireball has defied all odds in this bloody market! These NFT’s represent Fireball in his many forms. The conqueror. The warrior. The diamond collector.',
