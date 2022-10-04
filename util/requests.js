@@ -2,8 +2,8 @@ import { json2query } from ".";
 import { config } from "../config";
 
 let basePath =
-  config.env == "prod"
-    ? `https://${config.LOCAL_API_URL}`
+  config.env == "local"
+    ? `http://${config.LOCAL_API_URL}`
     : `https://${config.API_URL}`;
 
 export const getNFT = async (id) => {

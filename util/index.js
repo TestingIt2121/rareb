@@ -1,7 +1,7 @@
 import { config } from "../config";
 
 let basePath =
-  config.env == "prod"
+  config.env == "local"
     ? `http://${config.LOCAL_API_URL}`
     : `https://${config.API_URL}`;
 
