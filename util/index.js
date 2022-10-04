@@ -1,8 +1,8 @@
 import { config } from "../config";
 
 let basePath =
-  config.env == "local"
-    ? `https://${config.LOCAL_API_URL}`
+  config.env == "prod"
+    ? `http://${config.LOCAL_API_URL}`
     : `https://${config.API_URL}`;
 
 export const getDesc = (nft) => {
